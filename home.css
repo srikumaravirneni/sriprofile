@@ -17,33 +17,23 @@ h1 {
     font-size: 32px;
 }
 
-/* Tab Styles */
-.tabs {
-    text-align: center;
+section {
     margin: 20px;
-}
-
-.tablinks {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.tablinks:hover {
-    background-color: #555;
-}
-
-.tabcontent {
-    display: none;
+    background-color: #fff;
     padding: 20px;
+    border-radius: 5px;
 }
 
-/* Default tab is open */
-#education {
-    display: block;
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+article {
+    margin-top: 10px;
 }
 
 footer {
