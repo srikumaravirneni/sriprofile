@@ -1,3 +1,10 @@
+page-size{
+    max-width: 1440px;
+    width: 100%;
+    align-self: center;
+    
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
