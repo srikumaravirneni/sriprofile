@@ -17,23 +17,33 @@ h1 {
     font-size: 32px;
 }
 
-section {
+/* Tab Styles */
+.tabs {
+    text-align: center;
     margin: 20px;
-    background-color: #fff;
+}
+
+.tablinks {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.tablinks:hover {
+    background-color: #555;
+}
+
+.tabcontent {
+    display: none;
     padding: 20px;
-    border-radius: 5px;
 }
 
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-article {
-    margin-top: 10px;
+/* Default tab is open */
+#education {
+    display: block;
 }
 
 footer {
